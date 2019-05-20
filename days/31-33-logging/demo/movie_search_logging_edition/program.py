@@ -49,5 +49,6 @@ def init_logging(filename: str = None):
 
 
 if __name__ == '__main__':
-    init_logging('movie-app.log')
+    #init_logging('movie-app.log')
+    init_logging()
     main()
